@@ -1,0 +1,67 @@
+.cal-container {
+  border: 5px solid;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  background-color: rgba(96, 96, 96, 0.333);
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.display-btn {
+  width: 100%;
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.display-screen {
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid;
+  width: 100%;
+  height: 3.75rem;
+  margin: auto;
+  text-align: center;
+  border-radius: 0.3rem;
+}
+
+.btn:hover {
+  transition: 0.2s ease-in-out 0s;
+  transform: scale(1.05);
+}
+
+.btn-red:hover {
+  transition: 0.2s ease-in-out 0s;
+  transform: scale(1.05);
+  background-color: red;
+}
+
+.btn-green {
+  background-color: #8cfc98;
+}
+
+.btn-red {
+  background-color: rgb(250, 90, 90);
+}
+
+.btn-blue {
+  background-color: #dcecf8;
+}
+
+.btn-yellow {
+  background-color: yellow !important;
+}
+
+.input-cal {
+  margin: 5px;
+  width: 95%;
+  text-align: end;
+  background-color: aliceblue;
+  height: 3rem;
+  border-radius: 1rem;
+  border: 3px solid #a8a4a4;
+}

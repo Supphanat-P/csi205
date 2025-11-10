@@ -1,0 +1,13 @@
+/* Global reset and layout helpers */
+html, body, #root {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+footer h1 {
+	font-size: 1rem;
+	margin: 0;
+}
